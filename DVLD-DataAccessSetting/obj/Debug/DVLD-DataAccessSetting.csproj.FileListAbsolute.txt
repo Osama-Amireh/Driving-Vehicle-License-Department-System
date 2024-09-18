@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessSetting\bin\Debug\DVLD-DataAccessSetting.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessSetting\bin\Debug\DVLD-DataAccessSetting.pdb
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessSetting\obj\Debug\DVLD-DataAccessSetting.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessSetting\obj\Debug\DVLD-DataAccessSetting.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessSetting\obj\Debug\DVLD-DataAccessSetting.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessSetting\obj\Debug\DVLD-DataAccessSetting.pdb

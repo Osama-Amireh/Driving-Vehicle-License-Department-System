@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessLayer\bin\Debug\DVLD-DataAccessLayer.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessLayer\bin\Debug\DVLD-DataAccessLayer.pdb
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessLayer\bin\Debug\DVLD-DataAccessSetting.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessLayer\bin\Debug\DVLD-DataAccessSetting.pdb
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessLayer\obj\Debug\DVLD-DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessLayer\obj\Debug\DVLD-DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessLayer\obj\Debug\DVLD-Dat.04596E65.Up2Date
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessLayer\obj\Debug\DVLD-DataAccessLayer.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-DataAccessLayer\obj\Debug\DVLD-DataAccessLayer.pdb
