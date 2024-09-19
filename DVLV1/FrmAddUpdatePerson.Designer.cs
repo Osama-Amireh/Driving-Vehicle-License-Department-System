@@ -37,6 +37,7 @@
             this.uctrlAddUpdatePerson1.Name = "uctrlAddUpdatePerson1";
             this.uctrlAddUpdatePerson1.Size = new System.Drawing.Size(855, 495);
             this.uctrlAddUpdatePerson1.TabIndex = 0;
+            this.uctrlAddUpdatePerson1.OnPersonDataChanged += new System.Action<DVLD_businessLayer.clsPerson>(this.uctrlAddUpdatePerson1_OnPersonDataChanged);
             this.uctrlAddUpdatePerson1.Load += new System.EventHandler(this.uctrlAddUpdatePerson1_Load);
             // 
             // FrmAddUpdatePerson
@@ -47,6 +48,7 @@
             this.Controls.Add(this.uctrlAddUpdatePerson1);
             this.Name = "FrmAddUpdatePerson";
             this.Text = "FrmAddUpdatePerson";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmAddUpdatePerson_FormClosing);
             this.ResumeLayout(false);
 
         }

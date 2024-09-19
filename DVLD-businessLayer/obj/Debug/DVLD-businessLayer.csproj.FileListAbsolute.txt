@@ -9,3 +9,14 @@ C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-businessLayer\obj\D
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-businessLayer\obj\Debug\DVLD-bus.F12C0ED8.Up2Date
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-businessLayer\obj\Debug\DVLD-businessLayer.dll
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLV1\DVLD-businessLayer\obj\Debug\DVLD-businessLayer.pdb
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\bin\Debug\DVLD-businessLayer.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\bin\Debug\DVLD-businessLayer.pdb
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\bin\Debug\DVLD-DataAccessLayer.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\bin\Debug\DVLD-DataAccessSetting.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\bin\Debug\DVLD-DataAccessLayer.pdb
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\bin\Debug\DVLD-DataAccessSetting.pdb
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\obj\Debug\DVLD-businessLayer.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\obj\Debug\DVLD-businessLayer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\obj\Debug\DVLD-bus.F12C0ED8.Up2Date
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\obj\Debug\DVLD-businessLayer.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLD-businessLayer\obj\Debug\DVLD-businessLayer.pdb

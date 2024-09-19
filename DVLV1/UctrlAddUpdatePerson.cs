@@ -11,22 +11,32 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static DVLD_businessLayer.clsPerson;
-
+using DVLDClasses;
 namespace DVLV1
 {
     public partial class UctrlAddUpdatePerson : UserControl
     {
+        public event Action<clsPerson> OnPersonDataChanged;
+        protected virtual void SavePersonData (clsPerson person)
+        {
+            Action<clsPerson> hadeler = OnPersonDataChanged;
+            if (hadeler != null)
+            {
+                hadeler(person);
+            }
+
+        }
         clsPerson _Person = new clsPerson();
         private int _PersonID = -1;
         public enum enMode { AddNew = 1, Update = 2 };
-        private enMode _Mode=enMode.AddNew;
+        private enMode _Mode = enMode.AddNew;
         public int PersonID { get { return _PersonID; } }
         public UctrlAddUpdatePerson()
         {
             InitializeComponent();
-           
+
         }
-        
+
 
         private void _FillCountriesInComoboBox()
         {
@@ -55,7 +65,8 @@ namespace DVLV1
             {
                 _Mode = enMode.Update;
             }
-            dateTimePicker1.MaxDate = DateTime.Now.AddYears(-16);
+            dateTimePicker1.MaxDate = DateTime.Now.AddYears(-18);
+            dateTimePicker1.Value = dateTimePicker1.MaxDate;
             _FillCountriesInComoboBox();
             if (_Mode == enMode.AddNew)
             {
@@ -83,17 +94,31 @@ namespace DVLV1
             txtBoxEmail.Text = _Person.Email;
             llRemoveImage.Visible = (_Person.ImagePath != "");
             dateTimePicker1.Value = _Person.BirthOfDate;
-             txtBoxPhone.Text = _Person.Phone;
+            txtBoxPhone.Text = _Person.Phone;
             comboBox1.SelectedIndex = comboBox1.FindString(clsCountries.Find(_Person.Nationality).CountryName);
             if (_Person.ImagePath != "")
             {
                 picboxGender.Load(_Person.ImagePath);
             }
+            if (_Person.Gender == 0)
+            {
+                rdbMale.Checked = true;
+                if(_Person.ImagePath == "")
+                {
+                    picboxGender.Image = Resources.man__1_;
 
+                }
+            }
+            else
+            {
+                rdbFemale.Checked = true;
+                picboxGender.Image = Resources.user_female;
+
+            }
         }
-  
 
- 
+
+
         private void txtBoxEmail_TextChanged(object sender, EventArgs e)
         {
 
@@ -107,7 +132,7 @@ namespace DVLV1
                 errorProvider1.SetError(txtBoxEmail, "Must Enter Valid Email");
                 IsValid = false;
             }
-            else if (enMode.AddNew==_Mode&&!string.IsNullOrEmpty(txtBoxEmail.Text) && (clsPerson.IsEmailExisit(txtBoxEmail.Text.Trim()) == true))
+            else if (enMode.AddNew == _Mode && !string.IsNullOrEmpty(txtBoxEmail.Text) && (clsPerson.IsEmailExisit(txtBoxEmail.Text.Trim()) == true))
             {
                 errorProvider1.SetError(txtBoxEmail, "This Email already Exisit");
                 IsValid = false;
@@ -184,7 +209,7 @@ namespace DVLV1
                 _Person.ImagePath = picboxGender.ImageLocation.Trim();
             else
                 _Person.ImagePath = "";
-           _Person.Address= txtboxAddres.Text;
+            _Person.Address = txtboxAddres.Text;
         }
 
 
@@ -193,7 +218,7 @@ namespace DVLV1
         {
 
         }
-
+        private bool _IsSaved = false;
         private void UctrlAddUpdatePerson_Load(object sender, EventArgs e)
         {
             _LoadData();
@@ -215,22 +240,26 @@ namespace DVLV1
                     _Mode = enMode.Update;
                     lblMode.Text = "Update Person";
                     lblPersonID.Text = _Person.PersonID.ToString().Trim();
-
+                    _IsSaved = true;
                 }
                 else
-                    MessageBox.Show("Error: Data Is not Saved Successfully.");
+                    MessageBox.Show("Error: Data dose not Saved Successfully.");
 
-         
+
 
             }
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
+            if (OnPersonDataChanged != null && _IsSaved == true)
+            {
+                OnPersonDataChanged(_Person);
+            }
             this.ParentForm.Close();
 
         }
-         
+
         private bool _HandlePersonImage()
         {
             if (_Person.ImagePath != picboxGender.ImageLocation)
@@ -285,19 +314,35 @@ namespace DVLV1
 
         private void rdbMale_CheckedChanged_1(object sender, EventArgs e)
         {
-            picboxGender.Image = Resources.man__1_;
+            if (picboxGender.ImageLocation == null)
+                picboxGender.Image = Resources.man__1_;
 
         }
 
         private void rdbFemale_CheckedChanged(object sender, EventArgs e)
         {
-            picboxGender.Image = Resources.user_female;
+            if (picboxGender.ImageLocation == null)
+                picboxGender.Image = Resources.user_female;
 
         }
 
         private void llRemoveImage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
+            if (MessageBox.Show("Are you sure do you want remove your picture", "Confirm", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation) == DialogResult.OK)
+            {
+                if (rdbFemale.Checked)
+                {
+                    picboxGender.Image = Resources.user_female;
+                }
+                else
+                {
+                    picboxGender.Image = Resources.man__1_;
+
+
+                }
+                llRemoveImage.Visible = false;
+            }
         }
     }
 }

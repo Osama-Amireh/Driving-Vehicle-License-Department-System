@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\clsUtil\bin\Debug\clsUtil.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\clsUtil\bin\Debug\clsUtil.pdb
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\clsUtil\obj\Debug\DVLDClasses.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\clsUtil\obj\Debug\DVLDClasses.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\clsUtil\obj\Debug\clsUtil.dll
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\clsUtil\obj\Debug\clsUtil.pdb

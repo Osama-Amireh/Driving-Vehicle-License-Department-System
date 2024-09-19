@@ -36,12 +36,12 @@
             this.dgvListPeople = new System.Windows.Forms.DataGridView();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListPeople)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -54,10 +54,12 @@
             this.txtboxFind.Size = new System.Drawing.Size(151, 22);
             this.txtboxFind.TabIndex = 19;
             this.txtboxFind.Visible = false;
+            this.txtboxFind.TextChanged += new System.EventHandler(this.txtboxFind_TextChanged_1);
+            this.txtboxFind.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtboxFind_KeyPress);
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(1480, 534);
+            this.btnClose.Location = new System.Drawing.Point(1435, 545);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(103, 34);
             this.btnClose.TabIndex = 18;
@@ -69,7 +71,7 @@
             // 
             this.lblNumerRecords.AutoSize = true;
             this.lblNumerRecords.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumerRecords.Location = new System.Drawing.Point(149, 543);
+            this.lblNumerRecords.Location = new System.Drawing.Point(145, 563);
             this.lblNumerRecords.Name = "lblNumerRecords";
             this.lblNumerRecords.Size = new System.Drawing.Size(26, 18);
             this.lblNumerRecords.TabIndex = 17;
@@ -80,7 +82,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 541);
+            this.label3.Location = new System.Drawing.Point(15, 561);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 18);
             this.label3.TabIndex = 16;
@@ -98,8 +100,9 @@
             this.dgvListPeople.Name = "dgvListPeople";
             this.dgvListPeople.ReadOnly = true;
             this.dgvListPeople.RowHeadersWidth = 51;
-            this.dgvListPeople.Size = new System.Drawing.Size(1590, 289);
+            this.dgvListPeople.Size = new System.Drawing.Size(1549, 289);
             this.dgvListPeople.TabIndex = 15;
+            this.dgvListPeople.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListPeople_CellClick);
             this.dgvListPeople.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListPeople_CellContentClick);
             // 
             // contextMenuStrip1
@@ -109,14 +112,21 @@
             this.editToolStripMenuItem,
             this.deleteToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 80);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(123, 52);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.editToolStripMenuItem.Text = "Edit";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
+            // 
+            // deleteToolStripMenuItem
+            // 
+            this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.deleteToolStripMenuItem.Text = "Delete";
+            this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // comboBox1
             // 
@@ -165,7 +175,7 @@
             // button1
             // 
             this.button1.Image = global::DVLV1.Properties.Resources.invite_friends;
-            this.button1.Location = new System.Drawing.Point(1470, 132);
+            this.button1.Location = new System.Drawing.Point(1435, 142);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 93);
             this.button1.TabIndex = 14;
@@ -183,18 +193,11 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // deleteToolStripMenuItem
-            // 
-            this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.deleteToolStripMenuItem.Text = "Delete";
-            this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
-            // 
             // FrmManagePeople
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1595, 571);
+            this.ClientSize = new System.Drawing.Size(1586, 597);
             this.Controls.Add(this.txtboxFind);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lblNumerRecords);

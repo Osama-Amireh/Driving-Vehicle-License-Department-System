@@ -14,7 +14,7 @@ namespace DVLD_DataAccessLayer
         public static DataTable GetAllPeople()
         {
             DataTable dt = new DataTable();
-            string query = "Select PersonId,NationalNo ,FirstName  'First Name',SecondName 'Second Name',ThirdName 'Third Name',LastName 'Last Name', case Gendor when 0 then 'Male' when 1 then 'female' end as 'Gender'" +
+            string query = "Select PersonId 'Person ID',NationalNo ,FirstName  'First Name',SecondName 'Second Name',ThirdName 'Third Name',LastName 'Last Name', case Gendor when 0 then 'Male' when 1 then 'female' end as 'Gender'" +
                 ", DateOfBirth 'Date of Birth',(select Countries.CountryName from Countries where Countries.CountryID=People.NationalityCountryID) as Nationality,phone, Email from People";
             SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnectionString);
             SqlCommand command = new SqlCommand(query, connection);
@@ -40,7 +40,7 @@ namespace DVLD_DataAccessLayer
             return dt;
 
         }
-        public static bool IsNationalNoExisit(string nationalNo)
+        public static bool IsPersonExist(string nationalNo)
         {
             bool isFound = false;
             string query = "select 1 from People where Upper(NationalNo)=Upper(@nationalNo)";
@@ -68,6 +68,36 @@ namespace DVLD_DataAccessLayer
             return isFound;
 
         }
+        public static bool IsPersonExist(int PersonID)
+        {
+            bool isFound = false;
+            string query = "select 1 from People where PersonID=@personID";
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnectionString);
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@personID", PersonID);
+
+            try
+            {
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                isFound = reader.HasRows;
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return isFound;
+
+
+        }
+
         public static int AddNewPerson(string firstName, string secondName, string thirdName, string lastName, byte gender, string phone,
             string email, int NationalID, string NationalNo, DateTime dateOfBirth, string ImagePath, string address)
         {

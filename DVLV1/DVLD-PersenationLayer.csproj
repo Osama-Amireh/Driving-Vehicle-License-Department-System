@@ -108,6 +108,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\clsUtil\DVLDClasses.csproj">
+      <Project>{78be0172-7048-4c58-b7ad-a010af9423f3}</Project>
+      <Name>DVLDClasses</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DVLD-businessLayer\DVLD-businessLayer.csproj">
       <Project>{c9febc82-7c05-41f6-acee-89c79ffdce30}</Project>
       <Name>DVLD-businessLayer</Name>

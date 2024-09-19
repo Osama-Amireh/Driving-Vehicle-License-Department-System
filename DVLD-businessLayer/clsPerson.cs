@@ -69,7 +69,12 @@ namespace DVLD_businessLayer
         }
         public static bool IsNationalNoExisit(string nationalNo)
         {
-            return clsPersonData.IsNationalNoExisit(nationalNo);
+            return clsPersonData.IsPersonExist(nationalNo);
+
+        }
+        public static bool IsPersonIDExisit(int PersonID)
+        {
+            return clsPersonData.IsPersonExist(PersonID);
 
         }
         public static bool IsEmailExisit(string Email)
@@ -154,6 +159,8 @@ namespace DVLD_businessLayer
             {
                 return false;
             }
+
+           
             }
     }
 }
