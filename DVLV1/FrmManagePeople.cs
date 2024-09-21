@@ -69,7 +69,7 @@ namespace DVLV1
             newRow["Third Name"] = person.ThirdName;
             newRow["Last Name"] = person.LastName;
             newRow["Gender"] = person.Gender;
-            newRow["Date of Birth"] = person.BirthOfDate;
+            newRow["Date of Birth"] = person.BirthOfDate.ToString("dd/MM/yyyy");
             newRow["Nationality"] =clsCountries.Find( person.Nationality).CountryName;
             newRow["phone"] = person.Phone;
             newRow["Email"] = person.Email;
@@ -109,7 +109,7 @@ namespace DVLV1
             newRow["Third Name"] = person.ThirdName;
             newRow["Last Name"] = person.LastName;
             newRow["Gender"] = (person.Gender==0)?"Male":"Female";
-            newRow["Date of Birth"] = person.BirthOfDate;
+            newRow["Date of Birth"] = person.BirthOfDate.ToString("dd/MM/yyyy");
             newRow["Nationality"] = clsCountries.Find(person.Nationality).CountryName;
             newRow["phone"] = person.Phone;
             newRow["Email"] = person.Email;
@@ -272,6 +272,29 @@ namespace DVLV1
         private void dgvListPeople_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             _RowIndex=e.RowIndex;
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void personDetialsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmPersonDetails frmPersonDetails = new FrmPersonDetails((int)dgvListPeople.CurrentRow.Cells[0].Value);
+            frmPersonDetails.ShowDialog();
+        }
+
+        private void addNewPersonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAddUpdatePerson frm = new FrmAddUpdatePerson();
+            frm.DataBack += _DataBackAddNewPerson;
+            frm.ShowDialog();
+        }
+
+        private void sendEmailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The feature is not implementated yet","Not Ready",MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
     }
 }

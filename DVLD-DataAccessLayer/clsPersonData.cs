@@ -15,7 +15,7 @@ namespace DVLD_DataAccessLayer
         {
             DataTable dt = new DataTable();
             string query = "Select PersonId 'Person ID',NationalNo ,FirstName  'First Name',SecondName 'Second Name',ThirdName 'Third Name',LastName 'Last Name', case Gendor when 0 then 'Male' when 1 then 'female' end as 'Gender'" +
-                ", DateOfBirth 'Date of Birth',(select Countries.CountryName from Countries where Countries.CountryID=People.NationalityCountryID) as Nationality,phone, Email from People";
+                ", Format(DateOfBirth,'dd/MM/yyyy') 'Date of Birth',(select Countries.CountryName from Countries where Countries.CountryID=People.NationalityCountryID) as Nationality,phone, Email from People";
             SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnectionString);
             SqlCommand command = new SqlCommand(query, connection);
             try

@@ -65,6 +65,7 @@ namespace DVLV1
             {
                 _Mode = enMode.Update;
             }
+            dateTimePicker1.CustomFormat="dd/MM/yyyy";
             dateTimePicker1.MaxDate = DateTime.Now.AddYears(-18);
             dateTimePicker1.Value = dateTimePicker1.MaxDate;
             _FillCountriesInComoboBox();
@@ -204,7 +205,7 @@ namespace DVLV1
             {
                 _Person.Email = txtBoxEmail.Text.Trim();
             }
-            _Person.BirthOfDate = dateTimePicker1.Value;
+            _Person.BirthOfDate = dateTimePicker1.Value.Date;
             if (picboxGender.ImageLocation != null)
                 _Person.ImagePath = picboxGender.ImageLocation.Trim();
             else
@@ -236,14 +237,18 @@ namespace DVLV1
                 _FillDataToPerson();
                 if (_Person.Save())
                 {
-                    MessageBox.Show("Data Saved Successfully.");
+                    MessageBox.Show("Data Saved Successfully.", "Successed", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     _Mode = enMode.Update;
                     lblMode.Text = "Update Person";
                     lblPersonID.Text = _Person.PersonID.ToString().Trim();
                     _IsSaved = true;
+                    if (OnPersonDataChanged != null && _IsSaved == true)
+                    {
+                        OnPersonDataChanged(_Person);
+                    }
                 }
                 else
-                    MessageBox.Show("Error: Data dose not Saved Successfully.");
+                    MessageBox.Show("Data dose not Saved Successfully.", "Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 
 
@@ -252,10 +257,7 @@ namespace DVLV1
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            if (OnPersonDataChanged != null && _IsSaved == true)
-            {
-                OnPersonDataChanged(_Person);
-            }
+    
             this.ParentForm.Close();
 
         }

@@ -85,7 +85,7 @@ namespace DVLD_businessLayer
         private bool _AddNewPerson()
         {
             this.PersonID = clsPersonData.AddNewPerson(this.FirstName, this.SecondName, this.ThirdName, this.LastName, this.Gender, this.Phone, this.Email,
-                this.Nationality, this.NationalNo, this.BirthOfDate, this.ImagePath, this.Address);
+                this.Nationality, this.NationalNo, this.BirthOfDate.Date, this.ImagePath, this.Address);
             return (this.PersonID != -1);
 
         }
@@ -109,7 +109,7 @@ namespace DVLD_businessLayer
         private bool _UpdatePerson()
         {
             if (clsPersonData.UpdatePerson(this.PersonID, this.FirstName, this.SecondName, this.ThirdName, this.LastName, this.Gender, this.Phone, this.Email,
-                this.Nationality, this.NationalNo, this.BirthOfDate, this.ImagePath, this.Address))
+                this.Nationality, this.NationalNo, this.BirthOfDate.Date, this.ImagePath, this.Address))
             {
                 return true;
             }
