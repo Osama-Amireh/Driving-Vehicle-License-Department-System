@@ -1,5 +1,4 @@
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLD-PersenationLayer.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.Form1.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmAddUpdatePerson.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmManagePeople.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.Properties.Resources.resources
@@ -22,3 +21,5 @@ C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\bin\Debug\DVLD-Dat
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLD-Per.8D8632B5.Up2Date
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.UCtrlPersonDetailes.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmPersonDetails.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmMain.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmManageUser.resources

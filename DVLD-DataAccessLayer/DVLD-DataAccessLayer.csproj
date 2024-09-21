@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="clsCountriesData.cs" />
     <Compile Include="clsPersonData.cs" />
+    <Compile Include="clsUsersData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
