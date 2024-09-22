@@ -175,12 +175,17 @@ namespace DVLV1
             }
             else if (enMode.AddNew == _Mode && clsPerson.IsNationalNoExisit(txtboxNationalNo.Text) == true)
             {
+              
+            }
+            else if(_Person.NationalNo != txtboxNationalNo.Text&&clsPerson.IsNationalNoExisit(txtboxNationalNo.Text) == true)
+            {
                 errorProvider7.SetError(txtboxNationalNo, "This National Number already Exisit");
                 IsValid = false;
             }
             return IsValid;
 
         }
+
         private void _FillDataToPerson()
         {
             _Person.FirstName = txtboxFirst.Text.Trim();
@@ -224,7 +229,18 @@ namespace DVLV1
         {
             _LoadData();
         }
+        private void _RemoveSetErorr()
+        {
+            errorProvider1.SetError(txtBoxEmail, string.Empty);
+            errorProvider2.SetError(txtboxFirst, string.Empty);
+            errorProvider4.SetError(txtboxLast, string.Empty);
+            errorProvider3.SetError(txtboxSecond, string.Empty);
+            errorProvider7.SetError(txtboxNationalNo, "");
+            errorProvider5.SetError(txtBoxPhone, string.Empty);
+            errorProvider6.SetError(txtboxAddres, string.Empty);
 
+
+        }
         private void btnSave_Click_1(object sender, EventArgs e)
         {
             bool IsValid = _ValidInfo();
@@ -234,6 +250,7 @@ namespace DVLV1
 
             if (IsValid == true)
             {
+                _RemoveSetErorr();
                 _FillDataToPerson();
                 if (_Person.Save())
                 {
@@ -345,6 +362,18 @@ namespace DVLV1
                 }
                 llRemoveImage.Visible = false;
             }
+        }
+
+        private void txtboxAddres_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxNationalNo_TextChanged(object sender, EventArgs e)
+        {
+            txtboxNationalNo.Focus();
+            errorProvider5.SetError(txtboxNationalNo, "");
+
         }
     }
 }

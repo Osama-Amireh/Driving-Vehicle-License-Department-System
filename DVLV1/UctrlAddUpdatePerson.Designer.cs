@@ -196,6 +196,7 @@
             this.txtboxAddres.Name = "txtboxAddres";
             this.txtboxAddres.Size = new System.Drawing.Size(480, 102);
             this.txtboxAddres.TabIndex = 38;
+            this.txtboxAddres.TextChanged += new System.EventHandler(this.txtboxAddres_TextChanged);
             // 
             // pictureBox11
             // 
@@ -412,6 +413,7 @@
             this.txtboxNationalNo.Name = "txtboxNationalNo";
             this.txtboxNationalNo.Size = new System.Drawing.Size(134, 22);
             this.txtboxNationalNo.TabIndex = 16;
+            this.txtboxNationalNo.TextChanged += new System.EventHandler(this.txtboxNationalNo_TextChanged);
             // 
             // pictureBox3
             // 

@@ -38,6 +38,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAddUser = new System.Windows.Forms.Button();
             this.txtBoxFilter = new System.Windows.Forms.TextBox();
+            this.CbIsActive = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -66,6 +67,7 @@
             // 
             // cbFilterUser
             // 
+            this.cbFilterUser.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbFilterUser.FormattingEnabled = true;
             this.cbFilterUser.Items.AddRange(new object[] {
             "None",
@@ -78,6 +80,7 @@
             this.cbFilterUser.Name = "cbFilterUser";
             this.cbFilterUser.Size = new System.Drawing.Size(141, 24);
             this.cbFilterUser.TabIndex = 3;
+            this.cbFilterUser.SelectedIndexChanged += new System.EventHandler(this.cbFilterUser_SelectedIndexChanged);
             // 
             // dgvUsers
             // 
@@ -123,6 +126,7 @@
             this.btcClose.TabIndex = 8;
             this.btcClose.Text = "Close";
             this.btcClose.UseVisualStyleBackColor = true;
+            this.btcClose.Click += new System.EventHandler(this.btcClose_Click);
             // 
             // pictureBox1
             // 
@@ -150,12 +154,28 @@
             this.txtBoxFilter.Name = "txtBoxFilter";
             this.txtBoxFilter.Size = new System.Drawing.Size(145, 22);
             this.txtBoxFilter.TabIndex = 10;
+            this.txtBoxFilter.TextChanged += new System.EventHandler(this.txtBoxFilter_TextChanged);
+            // 
+            // CbIsActive
+            // 
+            this.CbIsActive.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbIsActive.FormattingEnabled = true;
+            this.CbIsActive.Items.AddRange(new object[] {
+            "All ",
+            "Yes",
+            "No"});
+            this.CbIsActive.Location = new System.Drawing.Point(252, 185);
+            this.CbIsActive.Name = "CbIsActive";
+            this.CbIsActive.Size = new System.Drawing.Size(145, 24);
+            this.CbIsActive.TabIndex = 11;
+            this.CbIsActive.SelectedIndexChanged += new System.EventHandler(this.CbIsActive_SelectedIndexChanged);
             // 
             // FrmManageUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(906, 579);
+            this.Controls.Add(this.CbIsActive);
             this.Controls.Add(this.txtBoxFilter);
             this.Controls.Add(this.btnAddUser);
             this.Controls.Add(this.btcClose);
@@ -188,5 +208,6 @@
         private System.Windows.Forms.Button btcClose;
         private System.Windows.Forms.Button btnAddUser;
         private System.Windows.Forms.TextBox txtBoxFilter;
+        private System.Windows.Forms.ComboBox CbIsActive;
     }
 }

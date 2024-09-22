@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using DVLDClasses;
 
 namespace DVLV1
 {
@@ -19,6 +20,7 @@ namespace DVLV1
         {
             InitializeComponent();
         }
+        DataView dv = clsPerson.GetAllPeople().AsDataView();
         private void _RefreshPeopleData()
         {
             dgvListPeople.DataSource = clsPerson.GetAllPeople();
@@ -50,7 +52,12 @@ namespace DVLV1
         {
 
         }
-
+        private void _RemoveFilterFromData()
+        {
+            dv.RowFilter = "";
+            dgvListPeople.DataSource = dv;
+            lblNumerRecords.Text = dgvListPeople.RowCount.ToString();
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             FrmAddUpdatePerson frm = new FrmAddUpdatePerson();
@@ -60,7 +67,7 @@ namespace DVLV1
         }
         private void _DataBackAddNewPerson(object sender, clsPerson person)
         {
-            DataTable table = (DataTable)dgvListPeople.DataSource;
+            DataTable table = ((DataView)dgvListPeople.DataSource).Table;
             DataRow newRow = table.NewRow();
             newRow["Person ID"] = person.PersonID;
             newRow["NationalNo"] = person.NationalNo;
@@ -89,19 +96,28 @@ namespace DVLV1
         int _RowIndex;
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmAddUpdatePerson frm = new FrmAddUpdatePerson((int)dgvListPeople.CurrentRow.Cells[0].Value);
-            frm.DataBack += _DataBackUdatePersonPerson;
-            frm.ShowDialog();
-           // _RefreshPeopleData();
+            if (dgvListPeople.CurrentRow != null)
+            {
+                FrmAddUpdatePerson frm = new FrmAddUpdatePerson((int)dgvListPeople.CurrentRow.Cells[0].Value);
+                frm.DataBack += _DataBackUdatePersonPerson;
+                frm.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Please select a person to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }           // _RefreshPeopleData();
         }
         private void _DataBackUdatePersonPerson(object sender, clsPerson person)
         {
            // dgvListPeople.Columns["Gender"].ReadOnly = false;
 
-            DataTable table = (DataTable)dgvListPeople.DataSource;
-            table.Columns["Gender"].ReadOnly = false;
-            table.Columns["Nationality"].ReadOnly = false;
-            DataRow newRow = table.Rows[_RowIndex];
+            DataTable table1 = ((DataView)dgvListPeople.DataSource).Table;
+            table1.Columns["Gender"].ReadOnly = false;
+            table1.Columns["Nationality"].ReadOnly = false;
+            table1.Columns["Date of Birth"].ReadOnly = false;
+
+            DataRow newRow = table1.Rows[_RowIndex];
             //newRow["Person ID"] = person.PersonID;
             newRow["NationalNo"] = person.NationalNo;
             newRow["First Name"] = person.FirstName;
@@ -141,7 +157,7 @@ namespace DVLV1
             switch (comboBox1.SelectedIndex)
             {
                 case 0: { 
-                        txtboxFind.Visible = false; _RefreshPeopleData(); break;
+                        txtboxFind.Visible = false; _RemoveFilterFromData(); break;
                             };
                 default: { 
                         txtboxFind.Visible = true; txtboxFind.Clear(); break; 
@@ -154,31 +170,39 @@ namespace DVLV1
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to delete Person [" + dgvListPeople.CurrentRow.Cells[0].Value + "]", "Confirm Delete", MessageBoxButtons.OKCancel,MessageBoxIcon.Exclamation) == DialogResult.OK)
-
+            if (dgvListPeople.CurrentRow != null)
             {
+                if (MessageBox.Show("Are you sure you want to delete Person [" + dgvListPeople.CurrentRow.Cells[0].Value + "]", "Confirm Delete", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation) == DialogResult.OK)
 
-                //Perform Delele and refresh
-                if (clsPerson.DeletePerson((int)dgvListPeople.CurrentRow.Cells[0].Value))
                 {
-                    MessageBox.Show("Person Deleted Successfully.","Successed",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    //  _RefreshPeopleData();
-                    dgvListPeople.Rows.RemoveAt(_RowIndex);
+
+                    //Perform Delele and refresh
+                    if (clsPerson.DeletePerson((int)dgvListPeople.CurrentRow.Cells[0].Value))
+                    {
+                        MessageBox.Show("Person Deleted Successfully.", "Successed", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        dgvListPeople.Rows.RemoveAt(_RowIndex);
+
+                    }
+
+                    else
+                        MessageBox.Show("Can not Delete This Person.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 }
-
-                else
-                    MessageBox.Show("Can not Delete This Person.","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+            else
+            {
+                MessageBox.Show("Please select a person to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
             }
         }
 
         private void txtboxFind_TextChanged_1(object sender, EventArgs e)
         {
-    DataView dv = clsPerson.GetAllPeople().AsDataView();
+
 
             if (txtboxFind.Text.Length > 0)
-            { switch (comboBox1.SelectedIndex)
+            {
+                switch (comboBox1.SelectedIndex)
                 {
                     case 1:
                         {
@@ -217,21 +241,21 @@ namespace DVLV1
                         }
                     case 6:
                         {
-                            dv.RowFilter = "[National No] Like '%" + txtboxFind.Text.Trim() + "%'";
+                            dv.RowFilter = "[NationalNo] Like '%" + txtboxFind.Text.Trim() + "%'";
                             dgvListPeople.DataSource = dv;
                             lblNumerRecords.Text = dgvListPeople.RowCount.ToString();
                             break;
                         }
                     case 7:
                         {
-                            dv.RowFilter = "[Nationality]=" + txtboxFind.Text.Trim();
+                            dv.RowFilter = "[Nationality]='" + txtboxFind.Text+"'";
                             dgvListPeople.DataSource = dv;
                             lblNumerRecords.Text = dgvListPeople.RowCount.ToString();
                             break;
                         }
                     case 8:
                         {
-                            dv.RowFilter = "[Gender]=" + txtboxFind.Text.Trim();
+                            dv.RowFilter = "[Gender]='" + txtboxFind.Text.Trim()+"'";
                             dgvListPeople.DataSource = dv;
                             lblNumerRecords.Text = dgvListPeople.RowCount.ToString();
                             break;
@@ -254,13 +278,15 @@ namespace DVLV1
                 }
             }
             else
-            _RefreshPeopleData();
+            {
+                _RemoveFilterFromData();
+
+            }
         }
 
         private void txtboxFind_KeyPress(object sender, KeyPressEventArgs e)
         {
-            var regex = new Regex(@"[^0-9\b]");
-            if(regex.IsMatch(e.KeyChar.ToString())&& comboBox1.SelectedIndex == 1)
+            if(clsValidate.ValidateInteger(e.KeyChar) && comboBox1.SelectedIndex == 1)
             {
                 e.Handled = true;
 
@@ -281,15 +307,26 @@ namespace DVLV1
 
         private void personDetialsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmPersonDetails frmPersonDetails = new FrmPersonDetails((int)dgvListPeople.CurrentRow.Cells[0].Value);
-            frmPersonDetails.ShowDialog();
+            if (dgvListPeople.CurrentRow != null)
+            {
+                FrmPersonDetails frmPersonDetails = new FrmPersonDetails((int)dgvListPeople.CurrentRow.Cells[0].Value);
+                frmPersonDetails.ShowDialog();
+            }
+
+            else
+            {
+                MessageBox.Show("Please select a person to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
         }
 
         private void addNewPersonToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmAddUpdatePerson frm = new FrmAddUpdatePerson();
-            frm.DataBack += _DataBackAddNewPerson;
-            frm.ShowDialog();
+       
+                FrmAddUpdatePerson frm = new FrmAddUpdatePerson();
+                frm.DataBack += _DataBackAddNewPerson;
+                frm.ShowDialog();
+          
         }
 
         private void sendEmailToolStripMenuItem_Click(object sender, EventArgs e)

@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-dataaccesslayer\\clsusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clsusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\frmmanageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmmanageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmmanagepeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmmanagepeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmmanagepeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmmanagepeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvld-businesslayer\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|solutionrelative:dvld-businesslayer\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\frmmanageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmmanageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvld-businesslayer\\clsperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|solutionrelative:dvld-businesslayer\\clsperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvld-dataaccesslayer\\clsusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clsusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\frmmanageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmmanageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvld-businesslayer\\clsperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|solutionrelative:dvld-businesslayer\\clsperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +46,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "FrmManagePeople.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManagePeople.cs",
+              "RelativeDocumentMoniker": "DVLV1\\FrmManagePeople.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManagePeople.cs",
+              "RelativeToolTip": "DVLV1\\FrmManagePeople.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAuwNAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:05:46.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmManagePeople.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManagePeople.cs",
+              "RelativeDocumentMoniker": "DVLV1\\FrmManagePeople.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManagePeople.cs [Design]",
+              "RelativeToolTip": "DVLV1\\FrmManagePeople.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:05:45.669Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "clsUsersData.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsUsersData.cs",
               "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsUsersData.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsUsersData.cs*",
-              "RelativeToolTip": "DVLD-DataAccessLayer\\clsUsersData.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAEwBIAAAA1AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsUsersData.cs",
+              "RelativeToolTip": "DVLD-DataAccessLayer\\clsUsersData.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAawA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T22:50:03.863Z",
               "EditorCaption": ""
@@ -61,52 +94,53 @@
               "RelativeDocumentMoniker": "DVLD-businessLayer\\clsPerson.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsPerson.cs",
               "RelativeToolTip": "DVLD-businessLayer\\clsPerson.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wEQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T22:44:03.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "clsUser.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsUser.cs",
               "RelativeDocumentMoniker": "DVLD-businessLayer\\clsUser.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsUser.cs",
               "RelativeToolTip": "DVLD-businessLayer\\clsUser.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAEwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T22:38:24.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FrmManageUser.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManageUser.cs",
               "RelativeDocumentMoniker": "DVLV1\\FrmManageUser.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManageUser.cs",
               "RelativeToolTip": "DVLV1\\FrmManageUser.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAnwBUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAhwHcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T22:28:19.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\Form1.cs",
               "RelativeDocumentMoniker": "DVLV1\\Form1.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\Form1.cs",
               "RelativeToolTip": "DVLV1\\Form1.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA3wBwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T22:05:48.17Z"
+              "WhenOpened": "2024-09-21T22:05:48.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "FrmManageUser.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManageUser.cs",
               "RelativeDocumentMoniker": "DVLV1\\FrmManageUser.cs",
@@ -125,7 +159,8 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\Form1.cs [Design]",
               "RelativeToolTip": "DVLV1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T22:02:11.57Z"
+              "WhenOpened": "2024-09-21T22:02:11.57Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
