@@ -18,7 +18,7 @@ namespace DVLV1
     public partial class FrmManageUser : Form
     {
         DataView dv = clsUser.GetAllUers().AsDataView();
-
+        int _RowIndex;
         public FrmManageUser()
         {
             InitializeComponent();
@@ -42,6 +42,12 @@ namespace DVLV1
         {
             _RefreshUsersData();
             cbFilterUser.SelectedIndex = 0;
+            dgvUsers.Columns[0].Width = 110;
+            dgvUsers.Columns[1].Width = 120;
+            dgvUsers.Columns[2].Width = 350;
+            dgvUsers.Columns[3].Width = 120;
+            dgvUsers.Columns[4].Width = 120;
+
         }
         private void _RemoveFilterFromData()
         {
@@ -165,6 +171,139 @@ namespace DVLV1
             if(clsValidate.ValidateInteger(e.KeyChar)&&(cbFilterUser.SelectedIndex==1||cbFilterUser.SelectedIndex==3))
             {
                 e.Handled = true;
+            }
+        }
+
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+            FrmAddUpdateUser frmAddUpdateUser = new FrmAddUpdateUser();
+            frmAddUpdateUser.DataBack += AddNewUserBack;
+            frmAddUpdateUser.ShowDialog();
+        }
+        private void AddNewUserBack(object sender,clsUser User)
+        {
+
+            DataTable table = ((DataView)dgvUsers.DataSource).Table;
+            DataRow newRow = table.NewRow();
+            newRow["User ID"] = User.UserID;
+            newRow["Person ID"] = User.PersonID;
+            newRow["Full Name"] = clsPerson.Find(User.PersonID).FullName;
+            newRow["User Name"] = User.UserName;
+            newRow["Is Active"] = User.IsActive;
+            table.Rows.Add(newRow);
+
+        }
+        private void UpdateUserBack(object sender, clsUser User)
+        {
+            DataTable table1 = ((DataView)dgvUsers.DataSource).Table;
+           
+            DataRow newRow = table1.Rows[_RowIndex];
+           // newRow["User ID"] = User.UserID;
+           // newRow["Person ID"] = User.PersonID;
+         //   newRow["Full Name"] = clsPerson.Find(User.PersonID).FullName;
+            newRow["User Name"] = User.UserName;
+            newRow["Is Active"] = User.IsActive;
+
+        }
+        private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dgvUsers.CurrentRow != null)
+            {
+                FrmAddUpdateUser frmAddUpdateUser = new FrmAddUpdateUser((int)dgvUsers.CurrentRow.Cells[0].Value);
+                frmAddUpdateUser.DataBack += UpdateUserBack;
+
+                frmAddUpdateUser.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Please select a person to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+        }
+
+        private void dgvUsers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dgvUsers_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            _RowIndex = e.RowIndex;
+
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dgvUsers.CurrentRow != null)
+            {
+                if (MessageBox.Show("Are you sure you want to delete User [" + dgvUsers.CurrentRow.Cells[0].Value + "]", "Confirm Delete", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation) == DialogResult.OK)
+
+                {
+
+                    //Perform Delele and refresh
+                    if (clsUser.DeleteUser((int)dgvUsers.CurrentRow.Cells[0].Value))
+                    {
+                        MessageBox.Show("User Deleted Successfully.", "Successed", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        dgvUsers.Rows.RemoveAt(_RowIndex);
+
+                    }
+
+                    else
+                        MessageBox.Show("Can not Delete This User.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a User to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+        }
+
+        private void sendEmailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The feature is not implementated yet", "Not Ready", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+        }
+
+        private void callPhoneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The feature is not implementated yet", "Not Ready", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+        }
+
+        private void addNewUserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAddUpdateUser frmAddUpdateUser = new FrmAddUpdateUser();
+            frmAddUpdateUser.DataBack += AddNewUserBack;
+            frmAddUpdateUser.ShowDialog();
+        }
+
+        private void showDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dgvUsers.CurrentRow != null)
+            {
+                FrmUserDetails frmUserDetails = new FrmUserDetails((int)dgvUsers.CurrentRow.Cells[0].Value);
+                frmUserDetails.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Please Select User", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        }
+
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dgvUsers.CurrentRow != null)
+            {
+                FrmChangePassword frmChangePassword = new FrmChangePassword((int)dgvUsers.CurrentRow.Cells[0].Value);
+                frmChangePassword.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Please Select User", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
         }
     } 

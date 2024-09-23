@@ -23,3 +23,8 @@ C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.UC
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmPersonDetails.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmMain.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmManageUser.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.PersonCardWithFilter.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmAddUpdateUser.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.ctrlUserDetails.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmUserDetails.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmChangePassword.resources

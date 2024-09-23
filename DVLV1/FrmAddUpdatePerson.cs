@@ -40,5 +40,10 @@ namespace DVLV1
         private void FrmAddUpdatePerson_FormClosing(object sender, FormClosingEventArgs e)
         {
         }
+
+        private void FrmAddUpdatePerson_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -333,5 +333,11 @@ namespace DVLV1
         {
             MessageBox.Show("The feature is not implementated yet","Not Ready",MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
+        private void phoneCallToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The feature is not implementated yet", "Not Ready", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+        }
     }
 }

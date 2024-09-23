@@ -223,7 +223,7 @@ namespace DVLD_DataAccessLayer
         }
 
         public static bool FindByNationalNo(ref int personID, ref string FirstName, ref string SecondName, ref string ThirdName
-    , ref string LastName, ref string Phone, ref string Email, ref int Nationality, string nationalNo, ref byte Gender, ref DateTime DateOfBirth,
+    , ref string LastName, ref string Phone, ref string Email, ref int Nationality,ref string nationalNo, ref byte Gender, ref DateTime DateOfBirth,
 ref string ImagePath, ref string Address)
         {
             bool isFound = false;
@@ -243,7 +243,7 @@ ref string ImagePath, ref string Address)
                     personID = (int)reader["personID"];
                     FirstName = (string)reader["FirstName"];
                     SecondName = (string)reader["SecondName"];
-
+                    nationalNo = (string)reader["NationalNo"];
                     if (reader["ThirdName"] != DBNull.Value)
                         ThirdName = (string)reader["ThirdName"];
                     else ThirdName = "";

@@ -49,6 +49,7 @@
             this.Name = "FrmAddUpdatePerson";
             this.Text = "FrmAddUpdatePerson";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmAddUpdatePerson_FormClosing);
+            this.Load += new System.EventHandler(this.FrmAddUpdatePerson_Load);
             this.ResumeLayout(false);
 
         }

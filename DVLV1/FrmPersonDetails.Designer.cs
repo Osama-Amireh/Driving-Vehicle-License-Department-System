@@ -28,30 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
             this.uCtrlPersonDetailes1 = new DVLV1.UCtrlPersonDetailes();
             this.SuspendLayout();
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label1.Location = new System.Drawing.Point(281, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(213, 32);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Person Details";
+            // 
+            // btnClose
+            // 
+            this.btnClose.Image = global::DVLV1.Properties.Resources.close__2_;
+            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnClose.Location = new System.Drawing.Point(678, 403);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(126, 42);
+            this.btnClose.TabIndex = 7;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // uCtrlPersonDetailes1
             // 
-            this.uCtrlPersonDetailes1.Location = new System.Drawing.Point(12, 7);
+            this.uCtrlPersonDetailes1.Location = new System.Drawing.Point(12, 24);
             this.uCtrlPersonDetailes1.Name = "uCtrlPersonDetailes1";
-            this.uCtrlPersonDetailes1.Size = new System.Drawing.Size(766, 471);
+            this.uCtrlPersonDetailes1.Size = new System.Drawing.Size(766, 385);
             this.uCtrlPersonDetailes1.TabIndex = 0;
             // 
             // FrmPersonDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(816, 490);
+            this.ClientSize = new System.Drawing.Size(816, 457);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.uCtrlPersonDetailes1);
             this.Name = "FrmPersonDetails";
             this.Text = "FrmPersonDetails";
+            this.Load += new System.EventHandler(this.FrmPersonDetails_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private UCtrlPersonDetailes uCtrlPersonDetailes1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnClose;
     }
 }
