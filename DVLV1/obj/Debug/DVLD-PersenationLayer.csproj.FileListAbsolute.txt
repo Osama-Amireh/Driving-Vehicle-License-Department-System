@@ -28,3 +28,4 @@ C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.Fr
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.ctrlUserDetails.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmUserDetails.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmChangePassword.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmLogin.resources

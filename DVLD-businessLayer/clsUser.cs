@@ -123,5 +123,18 @@ namespace DVLD_businessLayer
         {
             return clsUsersData.DeleteUser(UserID);
         }
+        public static clsUser LoginByUsernameAndPassword(string Username, string Password)
+        {
+             int personID = -1,UserID=-1; bool IsActive = false;
+            if(clsUsersData.LoginByUsernameAndPassword(ref UserID, ref Username, Password,ref personID,ref IsActive))
+            {
+                return new clsUser(UserID, Username, Password, personID, IsActive);
+
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }

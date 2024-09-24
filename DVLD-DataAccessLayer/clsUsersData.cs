@@ -265,5 +265,43 @@ namespace DVLD_DataAccessLayer
             return rowsAffected > 0;
 
         }
+        public static bool LoginByUsernameAndPassword(ref int ID, ref string Username,  string password, ref int PersonID, ref bool IsActive)
+        {
+            bool IsFound = false;
+            string qeury = "select * from Users where Upper(Username)=Upper(@username) and password=@Password";
+            SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnectionString);
+            SqlCommand command = new SqlCommand(qeury, connection);
+            command.Parameters.AddWithValue("@username", Username);
+            command.Parameters.AddWithValue("@Password", password);
+
+            try
+            {
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    IsFound = true;
+                    Username = (string)reader["Username"];
+                    password = (string)reader["Password"];
+                    PersonID = (int)reader["PersonID"];
+                    IsActive = (bool)reader["IsActive"];
+                    ID = (int)reader["UserID"];
+                }
+
+            }
+            catch (Exception ex)
+            {
+                IsFound = false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+
+            return IsFound;
+
+
+        }
     }
 }
