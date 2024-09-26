@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.applicationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applicationsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageApplicationsTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.peopleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,6 +46,7 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.applicationsToolStripMenuItem1,
             this.peopleToolStripMenuItem,
             this.usersToolStripMenuItem,
             this.toolStripMenuItem1});
@@ -51,6 +56,39 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            // 
+            // applicationsToolStripMenuItem
+            // 
+            this.applicationsToolStripMenuItem.Name = "applicationsToolStripMenuItem";
+            this.applicationsToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
+            this.applicationsToolStripMenuItem.Text = "Applications";
+            // 
+            // applicationsToolStripMenuItem1
+            // 
+            this.applicationsToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.manageApplicationsTypeToolStripMenuItem,
+            this.toolStripMenuItem2});
+            this.applicationsToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.applicationsToolStripMenuItem1.Image = global::DVLV1.Properties.Resources.public_document;
+            this.applicationsToolStripMenuItem1.Name = "applicationsToolStripMenuItem1";
+            this.applicationsToolStripMenuItem1.Size = new System.Drawing.Size(138, 27);
+            this.applicationsToolStripMenuItem1.Text = "Applications";
+            // 
+            // manageApplicationsTypeToolStripMenuItem
+            // 
+            this.manageApplicationsTypeToolStripMenuItem.Image = global::DVLV1.Properties.Resources.public_document__1_;
+            this.manageApplicationsTypeToolStripMenuItem.Name = "manageApplicationsTypeToolStripMenuItem";
+            this.manageApplicationsTypeToolStripMenuItem.Size = new System.Drawing.Size(300, 26);
+            this.manageApplicationsTypeToolStripMenuItem.Text = "Manage Applications Types";
+            this.manageApplicationsTypeToolStripMenuItem.Click += new System.EventHandler(this.manageApplicationsTypeToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Image = global::DVLV1.Properties.Resources.list_info;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(300, 26);
+            this.toolStripMenuItem2.Text = "Manage Test Types";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // peopleToolStripMenuItem
             // 
@@ -134,6 +172,10 @@
         private System.Windows.Forms.ToolStripMenuItem currentUserInfoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem changePasswordToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem signOutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applicationsToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem manageApplicationsTypeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applicationsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }
 

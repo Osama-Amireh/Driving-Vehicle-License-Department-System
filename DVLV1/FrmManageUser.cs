@@ -216,7 +216,7 @@ namespace DVLV1
             }
             else
             {
-                MessageBox.Show("Please select a person to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please select a person to  Edit.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
             }
         }

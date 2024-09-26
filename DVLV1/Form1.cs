@@ -84,5 +84,18 @@ namespace DVLV1
 
             }
         }
+
+        private void manageApplicationsTypeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmApplicationsTypes frmApplicationsTypes = new FrmApplicationsTypes();
+            frmApplicationsTypes.ShowDialog();
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FrmManageTestTypes frm
+                = new FrmManageTestTypes();
+            frm.ShowDialog();
+        }
     }
 }

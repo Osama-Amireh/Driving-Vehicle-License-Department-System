@@ -29,3 +29,7 @@ C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.ct
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmUserDetails.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmChangePassword.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmLogin.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmApplicationsTypes.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmEditApplicationType.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmManageTestTypes.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmEditTypeTest.resources

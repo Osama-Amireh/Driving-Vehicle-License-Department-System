@@ -70,11 +70,29 @@
     <Compile Include="FrmAddUpdateUser.Designer.cs">
       <DependentUpon>FrmAddUpdateUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmApplicationsTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmApplicationsTypes.Designer.cs">
+      <DependentUpon>FrmApplicationsTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmChangePassword.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmChangePassword.Designer.cs">
       <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditApplicationType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditApplicationType.Designer.cs">
+      <DependentUpon>FrmEditApplicationType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditTypeTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditTypeTest.Designer.cs">
+      <DependentUpon>FrmEditTypeTest.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
@@ -87,6 +105,12 @@
     </Compile>
     <Compile Include="FrmManagePeople.Designer.cs">
       <DependentUpon>FrmManagePeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManageTestTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageTestTypes.Designer.cs">
+      <DependentUpon>FrmManageTestTypes.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmManageUser.cs">
       <SubType>Form</SubType>
@@ -138,14 +162,26 @@
     <EmbeddedResource Include="FrmAddUpdateUser.resx">
       <DependentUpon>FrmAddUpdateUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmApplicationsTypes.resx">
+      <DependentUpon>FrmApplicationsTypes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmChangePassword.resx">
       <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditApplicationType.resx">
+      <DependentUpon>FrmEditApplicationType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditTypeTest.resx">
+      <DependentUpon>FrmEditTypeTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmManagePeople.resx">
       <DependentUpon>FrmManagePeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageTestTypes.resx">
+      <DependentUpon>FrmManageTestTypes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmManageUser.resx">
       <DependentUpon>FrmManageUser.cs</DependentUpon>
@@ -329,6 +365,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\close %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tasks_report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cover_page %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\public_document %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\public_document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_config.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
