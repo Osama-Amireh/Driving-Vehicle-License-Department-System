@@ -33,3 +33,4 @@ C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.Fr
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmEditApplicationType.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmManageTestTypes.resources
 C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmEditTypeTest.resources
+C:\Users\User\Desktop\Projects\abu hadhoud Course\DVLD1\DVLV1\obj\Debug\DVLV1.FrmNewLocalLicenseApplication.resources

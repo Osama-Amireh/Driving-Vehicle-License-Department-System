@@ -57,6 +57,7 @@ namespace DVLV1
             ckbIsActive.Checked = _User.IsActive;
             personCardWithFilter1.LoadPersonInfo(_User.PersonID);
         }
+    
         private void _ResetDefualtValue()
         {
             if(_Mode==enMode.Update)
@@ -79,6 +80,7 @@ namespace DVLV1
             txtBoxPasswoed.Text = "";
             txtBoxConfirmPasswoed.Text = "";
             ckbIsActive.Checked = true;
+            
         }
         private void FrmAddUpdateUser_Load(object sender, EventArgs e)
         {

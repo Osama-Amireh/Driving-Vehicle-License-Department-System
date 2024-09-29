@@ -3,64 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmmanagetesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmmanagetesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmaddupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmaddupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\frmeditapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmeditapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-businesslayer\\clslocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|solutionrelative:dvld-businesslayer\\clslocaldrivinglicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmapplicationstypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmapplicationstypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-dataaccesslayer\\clslocaldrivinglicenseapplicationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clslocaldrivinglicenseapplicationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-dataaccesslayer\\clstesttypesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clstesttypesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-dataaccesslayer\\clsapplicationsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clsapplicationsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmmanagetesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmmanagetesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-businesslayer\\clsapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|solutionrelative:dvld-businesslayer\\clsapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmeditapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmeditapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmnewlocallicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmnewlocallicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\frmapplicationstypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmapplicationstypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmnewlocallicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmnewlocallicenseapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvld-businesslayer\\clsapplicationstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|solutionrelative:dvld-businesslayer\\clsapplicationstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmaddupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmaddupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmedittypetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmedittypetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-dataaccesslayer\\licenseclassesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\licenseclassesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmedittypetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmedittypetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-businesslayer\\clstesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|solutionrelative:dvld-businesslayer\\clstesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvld-dataaccesslayer\\clsapplicaionstypedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-dataaccesslayer\\clsapplicaionstypedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clsapplicaionstypedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvld-businesslayer\\clslicenseclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FEBC82-7C05-41F6-ACEE-89C79FFDCE30}|DVLD-businessLayer\\DVLD-businessLayer.csproj|solutionrelative:dvld-businesslayer\\clslicenseclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvld-dataaccesslayer\\clsusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C51446DF-3164-47E1-A456-E3DB21403BE8}|DVLD-DataAccessLayer\\DVLD-DataAccessLayer.csproj|solutionrelative:dvld-dataaccesslayer\\clsusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|c:\\users\\user\\desktop\\projects\\abu hadhoud course\\dvld1\\dvlv1\\frmmanageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\frmmanageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0553E6-FA3E-4D1F-8586-E31237CA342F}|DVLV1\\DVLD-PersenationLayer.csproj|solutionrelative:dvlv1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,189 +66,178 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FrmEditTypeTest.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmEditTypeTest.cs",
-              "RelativeDocumentMoniker": "DVLV1\\FrmEditTypeTest.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmEditTypeTest.cs",
-              "RelativeToolTip": "DVLV1\\FrmEditTypeTest.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwA8AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T20:48:11.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FrmEditTypeTest.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmEditTypeTest.cs",
-              "RelativeDocumentMoniker": "DVLV1\\FrmEditTypeTest.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmEditTypeTest.cs [Design]",
-              "RelativeToolTip": "DVLV1\\FrmEditTypeTest.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T20:42:05.501Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmApplicationsTypes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmApplicationsTypes.cs",
-              "RelativeDocumentMoniker": "DVLV1\\FrmApplicationsTypes.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmApplicationsTypes.cs [Design]",
-              "RelativeToolTip": "DVLV1\\FrmApplicationsTypes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T20:14:37.191Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "clsTestTypesData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsTestTypesData.cs",
-              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsTestTypesData.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsTestTypesData.cs",
-              "RelativeToolTip": "DVLD-DataAccessLayer\\clsTestTypesData.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBAAAABrAAAAAAAAAA==",
+              "Title": "clsApplicationsData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsApplicationsData.cs",
+              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsApplicationsData.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsApplicationsData.cs",
+              "RelativeToolTip": "DVLD-DataAccessLayer\\clsApplicationsData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T20:06:40.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "clsTestTypes.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsTestTypes.cs",
-              "RelativeDocumentMoniker": "DVLD-businessLayer\\clsTestTypes.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsTestTypes.cs",
-              "RelativeToolTip": "DVLD-businessLayer\\clsTestTypes.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAEwDQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T20:02:51.21Z",
+              "WhenOpened": "2024-09-29T16:43:48.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FrmManageTestTypes.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManageTestTypes.cs",
-              "RelativeDocumentMoniker": "DVLV1\\FrmManageTestTypes.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManageTestTypes.cs",
-              "RelativeToolTip": "DVLV1\\FrmManageTestTypes.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAtwD4AAAAfAAAAAAAAAA==",
+              "Title": "clsApplications.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsApplications.cs",
+              "RelativeDocumentMoniker": "DVLD-businessLayer\\clsApplications.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsApplications.cs",
+              "RelativeToolTip": "DVLD-businessLayer\\clsApplications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:59:44.324Z",
+              "WhenOpened": "2024-09-29T16:43:17.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsLocalDrivingLicenseApplicationData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsLocalDrivingLicenseApplicationData.cs",
+              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsLocalDrivingLicenseApplicationData.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsLocalDrivingLicenseApplicationData.cs",
+              "RelativeToolTip": "DVLD-DataAccessLayer\\clsLocalDrivingLicenseApplicationData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:35:30.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsLocalDrivingLicenseApplication.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsLocalDrivingLicenseApplication.cs",
+              "RelativeDocumentMoniker": "DVLD-businessLayer\\clsLocalDrivingLicenseApplication.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsLocalDrivingLicenseApplication.cs",
+              "RelativeToolTip": "DVLD-businessLayer\\clsLocalDrivingLicenseApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:33:19.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmManageTestTypes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManageTestTypes.cs",
-              "RelativeDocumentMoniker": "DVLV1\\FrmManageTestTypes.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManageTestTypes.cs [Design]",
-              "RelativeToolTip": "DVLV1\\FrmManageTestTypes.cs [Design]",
+              "Title": "FrmAddUpdateUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmAddUpdateUser.cs",
+              "RelativeDocumentMoniker": "DVLV1\\FrmAddUpdateUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmAddUpdateUser.cs [Design]",
+              "RelativeToolTip": "DVLV1\\FrmAddUpdateUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:51:10.667Z",
+              "WhenOpened": "2024-09-29T14:18:47.103Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
+              "Title": "FrmNewLocalLicenseApplication.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmNewLocalLicenseApplication.cs",
+              "RelativeDocumentMoniker": "DVLV1\\FrmNewLocalLicenseApplication.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmNewLocalLicenseApplication.cs [Design]",
+              "RelativeToolTip": "DVLV1\\FrmNewLocalLicenseApplication.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:44:12.846Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmNewLocalLicenseApplication.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmNewLocalLicenseApplication.cs",
+              "RelativeDocumentMoniker": "DVLV1\\FrmNewLocalLicenseApplication.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmNewLocalLicenseApplication.cs",
+              "RelativeToolTip": "DVLV1\\FrmNewLocalLicenseApplication.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:24:52.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LicenseClassesData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\LicenseClassesData.cs",
+              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\LicenseClassesData.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\LicenseClassesData.cs",
+              "RelativeToolTip": "DVLD-DataAccessLayer\\LicenseClassesData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:50:54.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmAddUpdateUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmAddUpdateUser.cs",
+              "RelativeDocumentMoniker": "DVLV1\\FrmAddUpdateUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmAddUpdateUser.cs",
+              "RelativeToolTip": "DVLV1\\FrmAddUpdateUser.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAlwIAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:18:50.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "clsApplicaionsTypeData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsApplicaionsTypeData.cs",
+              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsApplicaionsTypeData.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsApplicaionsTypeData.cs",
+              "RelativeToolTip": "DVLD-DataAccessLayer\\clsApplicaionsTypeData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:04:07.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "clsLicenseClasses.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsLicenseClasses.cs",
+              "RelativeDocumentMoniker": "DVLD-businessLayer\\clsLicenseClasses.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsLicenseClasses.cs",
+              "RelativeToolTip": "DVLD-businessLayer\\clsLicenseClasses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:47:11.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmManageUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManageUser.cs",
+              "RelativeDocumentMoniker": "DVLV1\\FrmManageUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmManageUser.cs",
+              "RelativeToolTip": "DVLV1\\FrmManageUser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAvwCoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:24:38.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\Form1.cs",
               "RelativeDocumentMoniker": "DVLV1\\Form1.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\Form1.cs",
               "RelativeToolTip": "DVLV1\\Form1.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAhwGEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAvwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T15:26:41.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "clsUsersData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsUsersData.cs",
-              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsUsersData.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsUsersData.cs",
-              "RelativeToolTip": "DVLD-DataAccessLayer\\clsUsersData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T22:44:02.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmEditApplicationType.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmEditApplicationType.cs",
-              "RelativeDocumentMoniker": "DVLV1\\FrmEditApplicationType.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmEditApplicationType.cs",
-              "RelativeToolTip": "DVLV1\\FrmEditApplicationType.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T22:38:26.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmEditApplicationType.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmEditApplicationType.cs",
-              "RelativeDocumentMoniker": "DVLV1\\FrmEditApplicationType.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmEditApplicationType.cs [Design]",
-              "RelativeToolTip": "DVLV1\\FrmEditApplicationType.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T22:26:50.886Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmApplicationsTypes.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmApplicationsTypes.cs",
-              "RelativeDocumentMoniker": "DVLV1\\FrmApplicationsTypes.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\FrmApplicationsTypes.cs",
-              "RelativeToolTip": "DVLV1\\FrmApplicationsTypes.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAUwE4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T22:04:15.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "clsApplicaionsTypeData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsApplicaionsTypeData.cs",
-              "RelativeDocumentMoniker": "DVLD-DataAccessLayer\\clsApplicaionsTypeData.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-DataAccessLayer\\clsApplicaionsTypeData.cs",
-              "RelativeToolTip": "DVLD-DataAccessLayer\\clsApplicaionsTypeData.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwEUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T21:49:02.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "clsApplicationsType.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsApplicationsType.cs",
-              "RelativeDocumentMoniker": "DVLD-businessLayer\\clsApplicationsType.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLD-businessLayer\\clsApplicationsType.cs",
-              "RelativeToolTip": "DVLD-businessLayer\\clsApplicationsType.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAUwA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T21:48:24.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\abu hadhoud Course\\DVLD1\\DVLV1\\Form1.cs",
               "RelativeDocumentMoniker": "DVLV1\\Form1.cs",
