@@ -1,4 +1,5 @@
 ﻿using DVLD_businessLayer;
+using DVLDClasses;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -77,6 +78,9 @@ namespace DVLV1
                 btnSave.Enabled = true;
                 TpApplicationInfo.Enabled = true;
                 TcNewlicense.SelectedTab = TcNewlicense.TabPages["TpApplicationInfo"];
+                lblCreatedBy.Text=clsGlobal.CurrentUser.UserName;
+                lblData.Text = DateTime.Now.ToString();
+                CbClass.SelectedIndex = 3;
 
             }
             else

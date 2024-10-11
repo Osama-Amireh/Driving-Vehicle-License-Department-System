@@ -102,5 +102,17 @@ namespace DVLV1
         {
 
         }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            FrmNewLocalLicenseApplication frm=new FrmNewLocalLicenseApplication();
+            frm.ShowDialog();
+
+        }
+
+        private void localDreivingApplicationLicensesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
