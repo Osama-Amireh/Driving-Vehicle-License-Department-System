@@ -240,8 +240,8 @@ namespace DVLD_DataAccessLayer
         {
             string query = "SELECT ActiveApplicationID= Applications.ApplicationID FROM  " +
                 "   Applications INNER JOIN  LocalDrivingLicenseApplications ON Applications.ApplicationID = LocalDrivingLicenseApplications.ApplicationID INNER JOIN" +
-                " LicenseClasses ON LocalDrivingLicenseApplications.LicenseClassID = @LicenseClasses.LicenseClassID where ApplicantPersonID=@PersonID" +
-                " and ApplicationTypeID=@applicationTypeID and  applicationStatus=1";
+                " LicenseClasses ON LocalDrivingLicenseApplications.LicenseClassID = LicenseClasses.LicenseClassID where ApplicantPersonID=@PersonID" +
+                " and ApplicationTypeID=@applicationTypeID and LocalDrivingLicenseApplications.LicenseClassID = @LicenseClasses.LicenseClassID and  applicationStatus=1";
 
             SqlConnection connection = new SqlConnection(clsDataAccessSetting.ConnectionString);
             SqlCommand command = new SqlCommand(query, connection);
